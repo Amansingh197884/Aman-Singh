@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background: url("https://assets.vogue.in/photos/5ce425024a30b34f3112cab9/master/pass/These-are-the-skincare-ingredients-you-should-look-for-by-your-skin-type.jpg") no-repeat center center fixed;
+}
+
+header {
+
+    color: rgb(18, 18, 18);
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 1267px;
+    /* background-color: rgba(0, 255, 255, 0.219); */
+    background-color: azure;
+}
+
+nav a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 48px;
+    font-weight: bold;
+    font-size: 22px;
+
+
+}
+
+nav a:hover {
+    background-color: wheat;
+    color: rgb(232, 23, 23);
+}
+
+main {
+    padding: 20px;
+    background-color: azure;
+    width: 446px;
+    height: 405px;
+    border-radius: 35px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    border: 2px solid black;
+    overflow: visible;
+
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.h1 {
+    color: black;
+    font-weight: 100;
+}
+
+.h2 :hover {
+    background-color: #033e19;
+
+}
+
+.container h5 {
+
+
+    width: 150px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid 1px black;
+    font-style: normal;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-display: 150px;
+}
+
+.text {
+    margin-top: 50px;
+    margin-left: 100px;
+    color: black;
+}
+
+.img1 {
+    width: 50px;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+
+.h2 {
+    color: black;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 33px;
+    padding: 45px 3px;
+}
+
+.container h5:hover {
+    color: rgb(255, 0, 119);
+    background-color: rgba(0, 255, 255, 0.219);
+}
+
+.h1:hover {
+    color: rgb(255, 0, 115);
+
+}
+
+main:hover {
+    background-color: rgba(0, 255, 255, 0.219);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    width: 30%;
+    display: inline-block;
+    background-color: gray;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.image img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.title {
+    text-align: center;
+}
+
+.des {
+    text-align: center;
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+.mean {}
+
+.pure {
+    background-color: black;
+}
+
+
+.form {
+    width: 250px;
+    height: 350px;
+    background: linear-gradient (to top, rgba(255, 252, 252, 0.8)50%, rgba(0, 0, 0, 0.8)50%, );
+    position: absolute;
+    top: 70px;
+    left: 960px;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: rgba(0, 255, 255, 0.219);
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: 20px;
+
+
+}
+
+.form h2 {
+    font-family: sans-serif;
+    width: 220px;
+    color: lightcoral;
+    text-align: center;
+    margin: 2px;
+    padding: 8px;
+    font-size: 22px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background-color: aliceblue;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.bttn {
+    font-family: sans-serif;
+    width: 220px;
+
+    text-align: center;
+    margin: 12px;
+    padding: 8px;
+    font-size: 22px;
+    background-color: rgba(13, 96, 114, 0.413);
+    border-radius: 10px;
+    margin-top: 50px;
+    color: orange;
+}
+
+.cn {
+
+    font-family: sans-serif;
+    width: 220px;
+
+    text-align: center;
+    margin: 12px;
+    padding: 8px;
+    font-size: 22px;
+    background-color: rgba(13, 96, 114, 0.413);
+    border-radius: 10px;
+    margin-top: 20px;
+    color: orange;
+
+
+}
+
+.bttn:hover {
+    color: rgba(0, 255, 255, 0.219);
+    background-color: rgba(0, 255, 255, 0.219);
+
+}
+
+.cn:hover {
+    background-color: rgba(0, 255, 255, 0.219);
+}
